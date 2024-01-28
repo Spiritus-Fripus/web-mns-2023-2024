@@ -1,0 +1,99 @@
+:root {
+    /* Exemple d'utilisation de variables */
+    --white: #fff;
+    --denim: #2e5eaaff;
+    --keppel: #30b09dff;
+    --celadon: #b9e3b5ff;
+    --xanthous: #ffbc42ff;
+    --raspberry: #d81159ff;
+  }
+  
+  /* RESET :
+  Je style les propriétés globales de mon document 
+  *********************************************************** */
+  body {
+    /* reset des valeurs par défaut du body */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  /* ----------------- enoncé ------------------------ */
+  /* à l'aide de conteneurs flexs, réaliser la disposition suivante :
+  
+  - le header et le footer doivent avoir une hauteur de 200px;
+  - le main doit avoir le reste de la hauteur de fenêtre (çàd occuper tout l'écran moins la hauteur du header, footer)
+  - styler le bouton et le centrer verticalement et horizontalement dans son conteneur
+
+  - Réaliser un menu horizontal avec la navigation
+  - Disposer le title horizontalement à gauche, la navigation à droite, le tout centré verticalement dans le header
+  */
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background: var(--keppel);
+    padding: 0 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .main-header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu li {
+    list-style-type: none;
+}
+.menu a,
+.container button {
+    color: var(--white);
+    text-decoration: none;
+    background: var(--raspberry);
+    padding: 10px ;
+    transition: .3s;
+}
+
+.menu a:hover,
+.menu a:focus,
+.container button:hover,
+.container button:focus {
+    background: var(--white);
+    color: var(--raspberry);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background: var(--celadon);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: var(--keppel);
+}

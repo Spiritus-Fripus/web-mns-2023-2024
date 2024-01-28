@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>Formulaires en HTML</h1>
+
+    <!-- toujours etourer un formulaire d'une balise form -->
+    <form id="form-contact" action="contact.php" method="get">
+
+    </form>
+
+    <form id="form-newsletter" action="newsletter.php" method="post">
+        <div>
+            <label for="email">Votre Email</label>
+            <input id="email" type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="lastname">Votre Nom</label>
+            <input id="lastname" type="lastname" name="lastname">
+        </div>
+        <br>
+        <div>
+            <label for="firstname">Votre Nom</label>
+            <input id="firstname" type="firstname" name="firstname">
+        </div>
+        <br>
+        <div>
+            <label>
+                <input id="cgv" type="checkbox" name="cvg">
+                Valider les conditions
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                <input checked id="civilite-Mr" type="radio" name="civilite">
+                Mr
+            </label>
+            <label>
+                <input id="civilite-Mme" type="radio" name="civilite">
+                Mme
+            </label>
+            <label>
+                <input id="civilite-Dr" type="radio" name="civilite">
+                Dr
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="country">Pays:</label>
+            <select name="country" id="country">
+                <option value="fr">France</option>
+                <option value="lu">Luxembourg</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="message">Votre message</label>
+            <textarea name="message" id="message" cols="30" rows="10">Message par defaut</textarea>
+        </div>
+        <button type="submit">valider</button>
+        <!-- <input type="submit" value="valider">  possible aussi -->
+    </form>
+</body>
+</html>

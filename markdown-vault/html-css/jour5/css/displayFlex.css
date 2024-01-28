@@ -1,0 +1,26 @@
+/* 
+display : flex; permet de disposer les éléments enfants d'un conteneur qui a la propriété display : flex; en collonnes et / ou en ligne
+*/
+
+/* décoratif */
+
+section {
+    border: 1px solid red;
+    width: 20%;
+}
+
+/* conteneur flex */
+
+.flex-container {
+    border: 4px solid green;
+    /* on place la propriété sur le parent (ici main), pour contrôler ses enfants directs (ici les sections)*/
+    display: flex;
+    flex-direction: row; /* row (par défaut) / column, row-reverse , column-reverse*/
+
+    height: 600px;
+    justify-content: center; /* flex-start, flex-end , cetner , space-between , space-around , space-evenly */
+    align-items: center;
+    gap: 20px; /* Espace entre les éléments gap-row / gap-column */
+    
+}
+
