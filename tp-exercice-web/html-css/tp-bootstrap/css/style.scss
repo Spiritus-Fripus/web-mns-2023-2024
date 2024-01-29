@@ -1,28 +1,27 @@
-$enable-dark-mode : true;
+$enable-dark-mode: true;
 $primary: rgb(128, 0, 255);
-$secondary : whitesmoke;
+$secondary: whitesmoke;
 
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 @include color-mode(dark);
 
 h2 {
-    color: $primary;
+  color: $primary;
 }
 
 .container {
-    .nav {
-        gap: 40px;
-    }
+  .nav {
+    gap: 40px;
+  }
 
-    li {
-        list-style-type: none;
+  li {
+    list-style-type: none;
+  }
+  a {
+    &:hover,
+    &:focus {
+      color: $secondary;
+      background-color: $primary;
     }
-    a {
-        &:hover,
-        &:focus {
-        color: $secondary;
-        background-color: $primary;
-        }
-    }
+  }
 }
-

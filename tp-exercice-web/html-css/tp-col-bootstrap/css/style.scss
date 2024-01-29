@@ -1,28 +1,28 @@
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-:root{
-    --spacer: 20px;
-  }
-  body {
-    text-align: center;
-  }
-  div {
-    outline: 1px solid #5fac5f80;
-  }
+:root {
+  --spacer: 20px;
+}
+body {
+  text-align: center;
+}
+div {
+  outline: 1px solid #5fac5f80;
+}
 
-  [class*='container'] {
-    background-color: #feb5f580;
-    padding-top: var(--spacer);
-    padding-bottom: var(--spacer);
-  }
-  [class*='col-'] {
-    background-color: #b6bdfa;
-    min-height: calc(var(--spacer) * 10);
-    padding-top: var(--spacer);
-    padding-bottom: var(--spacer);
-    margin-top: var(--spacer);
-    margin-bottom: var(--spacer);
-  }
-  [class*='col-'] [class*='col-'] {
-    background-color: #8fded3;
-  }
+[class*="container"] {
+  background-color: #feb5f580;
+  padding-top: var(--spacer);
+  padding-bottom: var(--spacer);
+}
+[class*="col-"] {
+  background-color: #b6bdfa;
+  min-height: calc(var(--spacer) * 10);
+  padding-top: var(--spacer);
+  padding-bottom: var(--spacer);
+  margin-top: var(--spacer);
+  margin-bottom: var(--spacer);
+}
+[class*="col-"] [class*="col-"] {
+  background-color: #8fded3;
+}
