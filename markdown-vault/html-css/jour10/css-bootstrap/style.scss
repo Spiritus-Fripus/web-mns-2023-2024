@@ -1,8 +1,8 @@
-// On remplace les variables de Bootstrap 
-$primary : rgb(139,20,190);
-$enable-shadows : true;
+// On remplace les variables de Bootstrap
+$primary: rgb(139, 20, 190);
+$enable-shadows: true;
 $enable-gradients: true;
-$enable-dark-mode : true;
+$enable-dark-mode: true;
 
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 @include color-mode(dark);
