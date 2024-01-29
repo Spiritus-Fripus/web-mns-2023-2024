@@ -1,15 +1,16 @@
 # Base de données SQL
 
 ## Exemple d'une base de donnée
+
 ### Fiche Client
 
 - n° Client (47) (**Clé primaire**)
 - Nom
 - Prénom
 - Adresse
-- Id commercial : (4) (**Clé etrangère**) 
+- Id commercial : (4) (**Clé etrangère**)
 
-### Fiche commercial 
+### Fiche commercial
 
 - n° Commercial : (4) (**Clé primaire**)
 - id type : (5)
@@ -17,10 +18,9 @@
 ### Fiche type
 
 - type : (5) (_On peux utiliser un **ID** pour définir quel est le type du client (5 pour pro) (3 pour casual) etc ..._)
-- Professionel 
+- Professionel
 
-
-_exemple d'une base de donnée:_ 
+_exemple d'une base de donnée:_
 
 ![base de données](/Ressources/Schéma%20bdd.png)
 
@@ -44,14 +44,15 @@ classDiagram
     pokemon_id --> pokemon_size : joint
     pokemon_type : #pokemon_type_id
     pokemon_attack : #pokemon_attack_id
-    pokemon_size : #pokemon_size_id   
+    pokemon_size : #pokemon_size_id
 ```
 
 ## Système
 
 Definition d'un système :
-  - Avoir un certain nombre d'elements 
-  - Comment sont t'il interconnécté les uns les autres
+
+- Avoir un certain nombre d'elements
+- Comment sont t'il interconnécté les uns les autres
 
 _exemple de système:_
 
@@ -98,7 +99,7 @@ Tout le fonctionnement d'une base de donnée opérationnelle dépend d'une matri
 
 ```mermaid
 graph TD;
-    A -->|DF| B 
+    A -->|DF| B
 ```
 
 On dit que **A** , est en dépendance fonctionnelle (DF) par rapport à **B** , si à une valeur de **B** ne correspond au maximum qu'une valeur de **A**.
@@ -106,7 +107,7 @@ On considère que la réciproque est fausse.
 
 ```mermaid
 graph TD;
-    nom_client -->|DF| num_client 
+    nom_client -->|DF| num_client
 ```
 
 On dit que **nom_client** est en dépendance fonctionnelle (DF) par rapport à **num_client** , si à a une valeur de **num_client** ne correspond au maximum qu'une valeur de **nom_client**.
@@ -133,13 +134,14 @@ classDiagram
     Prénom : Paul
     Numéro_Client : 22
 ```
+
 Le moyen de relier **Nom** et **Prénom** de manière unique est une dépendance fonctionnelle à **Numéro_Client**
 Ca évite de fonctionner par filtre **Nom** --> **Prénom** --> **Ville** --> **Age**
 
-**tableau de dépendances fonctionnelles** 
+**tableau de dépendances fonctionnelles**
 
 | Entités     | Dépendances fonctionnelles                                   |
-|-------------|--------------------------------------------------------------|
+| ----------- | ------------------------------------------------------------ |
 | Utilisateur | **NomUtilisateur** -> AdresseEmail, MotDePasse               |
 | Commande    | **NumCommande** -> DateCommande, MontantTotal, UtilisateurID |
 | Article     | **CodeArticle** -> Designation, PrixUnitaire                 |
@@ -161,4 +163,3 @@ graph TD
   note -->|DF| num_eleve
   note -->|DF| num_matiere
 ```
-

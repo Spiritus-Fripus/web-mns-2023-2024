@@ -15,14 +15,14 @@ save it as a dependency in the package.json file.
 
 Press ^C at any time to quit.
 package name: (jour9) bootstrap-npm-poc
-version: (1.0.0) 
+version: (1.0.0)
 description: un projet pour installer boostrap avec npm
-entry point: (index.js) 
-test command: 
-git repository: 
-keywords: 
+entry point: (index.js)
+test command:
+git repository:
+keywords:
 author: nathan weber <n-weber@live.fr>
-license: (ISC) 
+license: (ISC)
 About to write to /home/nathan/Documents/web/note-web/html-css/Perso/jour9/package.json:
 
 {
@@ -38,7 +38,7 @@ About to write to /home/nathan/Documents/web/note-web/html-css/Perso/jour9/packa
 }
 
 
-Is this OK? (yes) 
+Is this OK? (yes)
 nathan@nathan-zenbook:~/Documents/web/note-web/html-css/Perso/jour9$ ^C
 nathan@nathan-zenbook:~/Documents/web/note-web/html-css/Perso/jour9$ npm install bootstrap
 

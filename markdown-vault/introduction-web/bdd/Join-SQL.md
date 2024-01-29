@@ -1,9 +1,9 @@
-# Jointure 
+# Jointure
 
 ## Jointure SQL
 
 Les jointures en SQL permettent d’associer plusieurs tables dans une même requête. Cela permet d’exploiter la puissance des bases de données relationnelles pour obtenir des résultats qui combinent les données de plusieurs tables de manière efficace.
- 
+
 ## Exemple
 
 En général, les jointures consistent à associer des lignes de 2 tables en associant l’égalité des valeurs d’une colonne d’une première table par rapport à la valeur d’une colonne d’une seconde table. Imaginons qu’une base de 2 données possède une table “utilisateur” et une autre table “adresse” qui contient les adresses de ces utilisateurs. Avec une jointure, il est possible d’obtenir les données de l’utilisateur et de son adresse en une seule requête.
@@ -20,6 +20,7 @@ FROM clients , commandes
 WHERE YEAR(commandes.date_commande) = 2023
 ORDER BY clients.num_client ASC;
 ```
+
 ![sans join](../Ressources/join-vente-no-join.png)
 
 Le résultat est de 177870 ce qui est impossible car il n'existe que 4000+ commandes, il manque la jointure pour afficher le résultat correct
@@ -38,7 +39,7 @@ ORDER BY clients.num_client ASC;
 
 Résultat : 997 , il y a 997 commandes pour l'année 2023
 
-## Types de jointures 
+## Types de jointures
 
 - **INNER JOIN** : jointure interne pour retourner les enregistrements quand la condition est vrai dans les 2 tables. C’est l’une des jointures les plus communes.
 
@@ -81,9 +82,9 @@ SELECT *
 FROM A
 FULL JOIN B ON A.key = B.key
 ```
+
 - **SELF JOIN** : permet d’effectuer une jointure d’une table avec elle-même comme si c’était une autre table.
- 
+
 - **NATURAL JOIN** : jointure naturelle entre 2 tables s’il y a au moins une colonne qui porte le même nom entre les 2 tables SQL
 
 - **UNION JOIN** : jointure d’union
-

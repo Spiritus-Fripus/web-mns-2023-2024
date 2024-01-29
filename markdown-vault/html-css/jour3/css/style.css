@@ -1,4 +1,5 @@
 /* On utilise la virgule pour séléctionner plusieurs cibles */
-h1, p {
-    font-style: italic;
+h1,
+p {
+  font-style: italic;
 }

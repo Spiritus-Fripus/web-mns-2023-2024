@@ -51,7 +51,7 @@ Emmet est très puissant et comporte beaucoup d'éléments de language similaire
 - `cmd + fleches bas/haut ou début/fin ( pavé numérique )` -> début/fin de ligne
 
 si vous ajouter la touche `shift` (majuscule) avec l'un de ces raccourcis, ça permet de faire une sélection en même temps que le déplacement du curseur.
-  
+
 Vous pouvez également utiliser des raccourcis pour déplacer des blocs entier de texte, les duppliquer, faire des multi-sélection...
 Soyez curieux et explorez les fichiers de configuration de raccourcis clavier, vous en apprendrez toujours plus !
 
@@ -65,4 +65,3 @@ Si ces raccourcis ne vous plaisent pas, ou ne correspondent pas à ces exemple, 
 - `shift + alt + fleche droite ->` étendre la sélection (à la prochaine balise)
 - `alt + shift + fleche du bas` -> copier une ligne vers le base
 - `alt + shift + fleche du haut` -> copier une ligne vers le haut
-

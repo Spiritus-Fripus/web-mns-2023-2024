@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TP Surclasse de classe</title>
-  <style>
-    /* Exercice : 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP Surclasse de classe</title>
+    <style>
+      /* Exercice : 
         	En utilisant le sélecteur adapté 
             qui a le moins de poids (spécificité),
 			surchargez les styles ci-dessous 
@@ -18,58 +18,58 @@
 			5. #li5 en rouge
 			6. #li6 en violet
 		*/
-    /* Mettre vos styles avant les css existantes */
-    ul li {
+      /* Mettre vos styles avant les css existantes */
+      ul li {
         color: blue;
-    }
-    body div ul li#li2 {
+      }
+      body div ul li#li2 {
         color: grey;
-    }
-    body div .liste {
+      }
+      body div .liste {
         color: green;
-    }
-    body div .liste + li {
+      }
+      body div .liste + li {
         color: black;
-    }
-    #li5 {
+      }
+      #li5 {
         color: red !important;
-    }
-    ul > li#li6 {
+      }
+      ul > li#li6 {
         color: purple;
-    }
-    /** ne plus rien modifier en dessous **/
-		li {
-			color: green;
-		}
+      }
+      /** ne plus rien modifier en dessous **/
+      li {
+        color: green;
+      }
 
-		div ul li#li2 {
-			color: red;
-		}
+      div ul li#li2 {
+        color: red;
+      }
 
-		div .liste {
-			color: blue;
-		}
+      div .liste {
+        color: blue;
+      }
 
-		div .liste + li {
-			color: gray;
-		}
-		
-		ul > #li6 {
-			color: orange;
-		}
-  </style>
-</head>
-<body>
-  <h1>Surclassez ces éléments !</h1>
-	<div>
-		<ul>
-			<li id="li1">Element 1</li>
-			<li id="li2">Element 2</li>
-			<li id="li3" class="liste">Element 3</li>
-			<li id="li4">Element 4</li>
-			<li id="li5" style="color: purple">Element 5</li>
-			<li id="li6">Element 6</li>
-		</ul>
-	</div>
-</body>
+      div .liste + li {
+        color: gray;
+      }
+
+      ul > #li6 {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Surclassez ces éléments !</h1>
+    <div>
+      <ul>
+        <li id="li1">Element 1</li>
+        <li id="li2">Element 2</li>
+        <li id="li3" class="liste">Element 3</li>
+        <li id="li4">Element 4</li>
+        <li id="li5" style="color: purple">Element 5</li>
+        <li id="li6">Element 6</li>
+      </ul>
+    </div>
+  </body>
 </html>

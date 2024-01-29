@@ -2,7 +2,7 @@
 
 ## Method
 
-**$_GET**
+**$\_GET**
 
 GET recupere des valeurs dans l'URL des liens
 
@@ -16,9 +16,9 @@ if (isset($_GET["___"])){
 ?>
 ```
 
-**$_POST**
+**$\_POST**
 
-POST recupère des valeurs dans un formulaire 
+POST recupère des valeurs dans un formulaire
 
 ```php
 <form action="traitement.php" method="POST" >
@@ -30,13 +30,13 @@ POST recupère des valeurs dans un formulaire
 
 **//!! AVANT UN "echo" SYSTEMATIQUEMENT AJOUTER "htlmspecialchars()" !!//**
 
-```php 
+```php
 <?php
 if (isset($_POST["form1"]) && $_POST["form1"] == "sent") {
     echo htmlspecialchars($_POST["champ1"]);
     echo "<br/>";
     echo htmlspecialchars($_POST["champ2"]);
-} 
+}
 ?>
 ```
 
@@ -71,6 +71,6 @@ $db = new PDO(_____);
 
 ```php
 $db = new PDO("mysql:host=localhost;dbname=nom_db;charset=utf8", "username","password");
-// !! ATTENTION !! (sensible aux espaces) 
+// !! ATTENTION !! (sensible aux espaces)
 
 ```

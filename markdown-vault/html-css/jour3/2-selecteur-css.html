@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sélécteurs CSS</title>
     <style>
-        /* séléctionner les balises */
-        div {
-            color: red;
-        }
-        /* On peut être plus sépcifique : on sélécionne tout les h2 qui sont dans un div*/
-        div h2 {
-            color: orange;
-        }
-        /* on peut créer une classe pour choisir soit même les élélments à viser */
-        .maclasse {
-            color: rgb(4, 255, 4);
-        }
-        /* on peut créer un indentifiant unique pour hcoisir soit même les éléments. */
-        .monidentifiantunique p {
-            color: purple;
-        }
-        /*  Sélécteur d'i, attribut unique */
-        [type = "email"] {
-            border: 2px solid red;
-        }
+      /* séléctionner les balises */
+      div {
+        color: red;
+      }
+      /* On peut être plus sépcifique : on sélécionne tout les h2 qui sont dans un div*/
+      div h2 {
+        color: orange;
+      }
+      /* on peut créer une classe pour choisir soit même les élélments à viser */
+      .maclasse {
+        color: rgb(4, 255, 4);
+      }
+      /* on peut créer un indentifiant unique pour hcoisir soit même les éléments. */
+      .monidentifiantunique p {
+        color: purple;
+      }
+      /*  Sélécteur d'i, attribut unique */
+      [type="email"] {
+        border: 2px solid red;
+      }
 
-        /* 
+      /* 
 
         [title="coucou"] --> qui à la valeur exacte
         [title^=cou] --> qui commence par "cou" 
@@ -34,57 +34,82 @@
         [title$="cou"] --> qui finit par "cou"
 
         */
-        [title*="cou"] {
-            border: 2px solid blue;
-        }
-        
-        /* sélécteur global */
+      [title*="cou"] {
+        border: 2px solid blue;
+      }
 
-        /* * {
+      /* sélécteur global */
+
+      /* * {
              font-size: 40px 
         } */
-        
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Sélécteurs CSS</h1>
 
     <h2 title="coucou">Vilain petit canard</h2>
 
-    <a href="#">Exemple de lien</a><br>
+    <a href="#">Exemple de lien</a><br />
 
-    <input title="cousin" type="text" name="moninput"><br>
-    <input type="email" name="email">
+    <input title="cousin" type="text" name="moninput" /><br />
+    <input type="email" name="email" />
 
     <div>
-        <h2 class="maclasse">Titre h2</h2>
-        <p title="couscous">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem mollitia quibusdam odio maiores quasi ipsam facilis. Perferendis corporis ipsum et mollitia, minima, molestiae non sed dolorum amet recusandae molestias autem.
-            Porro saepe fuga ad repudiandae corrupti, itaque hic ea voluptates dicta. Fuga libero totam quasi unde est! Quasi perferendis ipsam molestiae earum consequuntur quaerat, temporibus saepe a, autem, voluptatem dolorum!
-        </p>
+      <h2 class="maclasse">Titre h2</h2>
+      <p title="couscous">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+        mollitia quibusdam odio maiores quasi ipsam facilis. Perferendis
+        corporis ipsum et mollitia, minima, molestiae non sed dolorum amet
+        recusandae molestias autem. Porro saepe fuga ad repudiandae corrupti,
+        itaque hic ea voluptates dicta. Fuga libero totam quasi unde est! Quasi
+        perferendis ipsam molestiae earum consequuntur quaerat, temporibus saepe
+        a, autem, voluptatem dolorum!
+      </p>
     </div>
 
     <div id="monindentifiantunique">
-        <h2>title</h2>
-        <p class="maclasse">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur eaque laboriosam at exercitationem accusantium iste quibusdam laudantium quas molestias! Maiores eligendi accusamus quis amet dignissimos minima velit error ratione eius!
-            Dignissimos necessitatibus ea sit quas tempora maiores quasi voluptate nostrum eum omnis, neque cumque voluptates temporibus qui nemo dicta molestiae facilis sunt saepe, tempore doloremque voluptatum deleniti quidem. Nostrum, eius.
-            Ex rerum mollitia error nemo! Numquam eaque voluptatem consectetur molestias suscipit esse ut, nostrum omnis beatae quos quaerat sunt. Molestiae exercitationem itaque, sunt omnis dolor architecto facilis assumenda repellat modi?
-            Eligendi id magni natus aut labore sequi, adipisci unde provident numquam pariatur, ad blanditiis officia ut dolorem, facilis quidem tempore quod vero. Aliquam ut natus earum consectetur, totam omnis quae.
-        </p>
-        <p class="quoicoubeh">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aut reiciendis dolores numquam adipisci maiores distinctio itaque officiis doloribus! In molestias perferendis numquam laboriosam! Quisquam laboriosam eveniet quidem repellat molestiae?
-            Laudantium, distinctio aspernatur dolorem laborum quasi, enim expedita fugit quis tempore excepturi perspiciatis eligendi dolores sunt rem tempora autem maiores. Suscipit eius distinctio perspiciatis consequuntur non porro accusamus commodi nam.
-            Ut ipsam maiores nulla iste, quae numquam cum et error corrupti cumque rerum hic quo voluptatem alias a doloremque quia laudantium! Nobis fugiat voluptatibus reiciendis quasi quibusdam velit suscipit beatae.
-        </p>
+      <h2>title</h2>
+      <p class="maclasse">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
+        eaque laboriosam at exercitationem accusantium iste quibusdam laudantium
+        quas molestias! Maiores eligendi accusamus quis amet dignissimos minima
+        velit error ratione eius! Dignissimos necessitatibus ea sit quas tempora
+        maiores quasi voluptate nostrum eum omnis, neque cumque voluptates
+        temporibus qui nemo dicta molestiae facilis sunt saepe, tempore
+        doloremque voluptatum deleniti quidem. Nostrum, eius. Ex rerum mollitia
+        error nemo! Numquam eaque voluptatem consectetur molestias suscipit esse
+        ut, nostrum omnis beatae quos quaerat sunt. Molestiae exercitationem
+        itaque, sunt omnis dolor architecto facilis assumenda repellat modi?
+        Eligendi id magni natus aut labore sequi, adipisci unde provident
+        numquam pariatur, ad blanditiis officia ut dolorem, facilis quidem
+        tempore quod vero. Aliquam ut natus earum consectetur, totam omnis quae.
+      </p>
+      <p class="quoicoubeh">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aut
+        reiciendis dolores numquam adipisci maiores distinctio itaque officiis
+        doloribus! In molestias perferendis numquam laboriosam! Quisquam
+        laboriosam eveniet quidem repellat molestiae? Laudantium, distinctio
+        aspernatur dolorem laborum quasi, enim expedita fugit quis tempore
+        excepturi perspiciatis eligendi dolores sunt rem tempora autem maiores.
+        Suscipit eius distinctio perspiciatis consequuntur non porro accusamus
+        commodi nam. Ut ipsam maiores nulla iste, quae numquam cum et error
+        corrupti cumque rerum hic quo voluptatem alias a doloremque quia
+        laudantium! Nobis fugiat voluptatibus reiciendis quasi quibusdam velit
+        suscipit beatae.
+      </p>
     </div>
     <div>
-        <h2>Titre 3</h2>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel deleniti tenetur a suscipit quo similique quaerat dicta distinctio quod, numquam nulla excepturi repellendus magnam rem veritatis voluptatem. Odio, tempora ea.
-            Voluptatum perspiciatis amet ad magni nemo in non cupiditate culpa! Dolore, optio! Laudantium laborum magnam similique rerum aut nobis dicta cupiditate perferendis provident molestiae ea vero, animi eaque magni inventore.
-        </p>
+      <h2>Titre 3</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel deleniti
+        tenetur a suscipit quo similique quaerat dicta distinctio quod, numquam
+        nulla excepturi repellendus magnam rem veritatis voluptatem. Odio,
+        tempora ea. Voluptatum perspiciatis amet ad magni nemo in non cupiditate
+        culpa! Dolore, optio! Laudantium laborum magnam similique rerum aut
+        nobis dicta cupiditate perferendis provident molestiae ea vero, animi
+        eaque magni inventore.
+      </p>
     </div>
-
-</body>
+  </body>
 </html>

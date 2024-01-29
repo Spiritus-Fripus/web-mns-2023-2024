@@ -1,54 +1,53 @@
 body h1 {
-    animation-name: fade-in-left;
-    animation-duration: 3s;
-    position: relative;
-    left: 0;
-    color: rgba(140, 23, 23, 0.669);
-
+  animation-name: fade-in-left;
+  animation-duration: 3s;
+  position: relative;
+  left: 0;
+  color: rgba(140, 23, 23, 0.669);
 }
 
 body h2 {
-    animation-name: fade;
-    animation-duration: 8s;
-    color: #211a8dbd;
+  animation-name: fade;
+  animation-duration: 8s;
+  color: #211a8dbd;
 }
 
 li {
-    opacity: 0;
-    animation-name: fade-in-left;
-    animation-duration: 3s;
-    position: relative;
-    left: 0;
-    animation-fill-mode: forwards;
-    color: #1a8d63bd;
+  opacity: 0;
+  animation-name: fade-in-left;
+  animation-duration: 3s;
+  position: relative;
+  left: 0;
+  animation-fill-mode: forwards;
+  color: #1a8d63bd;
 }
 
 .liste2 {
-    animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .liste3 {
-    animation-delay: .4s;
+  animation-delay: 0.4s;
 }
 
 @keyframes fade-in-left {
-    from {
-        left: -100%;
-        opacity: 0;
-    }
+  from {
+    left: -100%;
+    opacity: 0;
+  }
 
-    to {
-        left: 0%;
-        opacity: 1;
-    }
+  to {
+    left: 0%;
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-    from {
-        opacity: 0;
-    }
-    
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

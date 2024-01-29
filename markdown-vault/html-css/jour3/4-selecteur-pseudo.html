@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pseudo sélecteurs en CSS</title>
     <style>
-
       /* pseudo-classes */
 
       a {
         display: inline-block;
         padding: 10px 20px;
         color: red;
-        background-color: rgba(255,0,0,.2);
+        background-color: rgba(255, 0, 0, 0.2);
         text-decoration: none;
       }
       /* état focus et survolé */
-      a:focus, 
+      a:focus,
       a:hover {
         color: #fff;
-        background-color: rgba(255,0,0,.8);
+        background-color: rgba(255, 0, 0, 0.8);
         outline: none;
         box-shadow: 0 0 20px -5px red;
       }
@@ -59,17 +58,17 @@
       .boite {
         text-align: center;
         padding: 20px 100px;
-        background-color: rgb(90,230,220);
+        background-color: rgb(90, 230, 220);
       }
       [target$="blank"]::after {
-        content: '🛫';
+        content: "🛫";
       }
       .boite::before {
-        content: 'test → 😊';
+        content: "test → 😊";
       }
       .boite::after {
         display: inline-block;
-        content: '';
+        content: "";
         height: 20px;
         width: 20px;
         margin: 0 10px;
@@ -124,52 +123,62 @@
       }
 
       p:not(.para) {
-        color: blue;        
+        color: blue;
       }
-      
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Pseudo élements, pseudos-sélecteurs et pseudo-classes</h1>
 
-  <h2>Pseudo-classes</h2>
-  <ul>
-    <li><a href="#formulaire">Aller <span>au formulaire</span></a></li>
-    <li><a href="https://www.orange.fr" target="_blank">Voir le site</a></li>
-  </ul>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et labore quia dicta voluptates iusto? Nesciunt reiciendis asperiores fuga a architecto voluptatum possimus, eius deserunt fugiat? Et commodi itaque quo fugit.</p>
-  <form action="" id="formulaire">
-    <input type="text" name="message">
-    <button type="submit">Valider</button>
-  </form>
+    <h2>Pseudo-classes</h2>
+    <ul>
+      <li>
+        <a href="#formulaire">Aller <span>au formulaire</span></a>
+      </li>
+      <li><a href="https://www.orange.fr" target="_blank">Voir le site</a></li>
+    </ul>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Et labore quia
+      dicta voluptates iusto? Nesciunt reiciendis asperiores fuga a architecto
+      voluptatum possimus, eius deserunt fugiat? Et commodi itaque quo fugit.
+    </p>
+    <form action="" id="formulaire">
+      <input type="text" name="message" />
+      <button type="submit">Valider</button>
+    </form>
 
-  <h2>Pseudos-elements</h2>
+    <h2>Pseudos-elements</h2>
 
-  <div class="boite">Text dans le div</div>
+    <div class="boite">Text dans le div</div>
 
-  <h2>Pseudo-sélecteurs</h2>
-  
-  <ul class="menu">
-    <li>liste 1</li>
-    <li>liste 2</li>
-    <li>liste 3</li>
-    <li>liste 4</li>
-    <li>liste 5</li>
-    <li>liste 6</li>
-    <li>liste 7</li>
-    <li>liste 8</li>
-    <li>liste 9</li>
-    <li>liste 10</li>
-  </ul>
+    <h2>Pseudo-sélecteurs</h2>
 
-  <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia dolores, odit autem deserunt perferendis possimus earum officiis maiores. Officiis voluptate reprehenderit eveniet exercitationem illum, aliquid beatae cum optio placeat.</p>
-  
-  <!-- exemple de pseudo-selecteurs -->
-  <h2>Pseudos-sélecteurs</h2>
-  <p></p>
-  <p>ma phrase <span>avec un span</span> exemple.</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-</body>
+    <ul class="menu">
+      <li>liste 1</li>
+      <li>liste 2</li>
+      <li>liste 3</li>
+      <li>liste 4</li>
+      <li>liste 5</li>
+      <li>liste 6</li>
+      <li>liste 7</li>
+      <li>liste 8</li>
+      <li>liste 9</li>
+      <li>liste 10</li>
+    </ul>
+
+    <p class="para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia
+      dolores, odit autem deserunt perferendis possimus earum officiis maiores.
+      Officiis voluptate reprehenderit eveniet exercitationem illum, aliquid
+      beatae cum optio placeat.
+    </p>
+
+    <!-- exemple de pseudo-selecteurs -->
+    <h2>Pseudos-sélecteurs</h2>
+    <p></p>
+    <p>ma phrase <span>avec un span</span> exemple.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </body>
 </html>

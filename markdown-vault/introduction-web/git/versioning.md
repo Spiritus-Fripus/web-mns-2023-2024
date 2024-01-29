@@ -10,7 +10,7 @@ L'utilisation d'un système de versioning permet de garder une trace des modific
 
 ![versioning](https://d36ai2hkxl16us.cloudfront.net/course-uploads/3eb5fe9d-f865-4dce-9bb3-54c11277cbaf/m4tnzu0vk1hf-semantic-versioning.jpg)
 
-**`Exemple :`** 
+**`Exemple :`**
 
 ```mermaid
 graph TD;
@@ -22,5 +22,3 @@ clientY -->|V2.0| serveur
 clientZ --> APP
 APP -->|V2.1| serveur
 ```
-
-

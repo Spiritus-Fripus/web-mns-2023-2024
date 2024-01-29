@@ -1,26 +1,26 @@
-@import '_variables.scss';
-@import '_mixin.scss';
+@import "_variables.scss";
+@import "_mixin.scss";
 
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-    background-color: $primary;
-    li {
-        list-style-type: none;
-        padding: 10px;
-        a {
-            @include createBtn($primary, $light)
-        }
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  background-color: $primary;
+  li {
+    list-style-type: none;
+    padding: 10px;
+    a {
+      @include createBtn($primary, $light);
     }
+  }
 }
 
 h2 {
-    color: $secondary;
+  color: $secondary;
 }

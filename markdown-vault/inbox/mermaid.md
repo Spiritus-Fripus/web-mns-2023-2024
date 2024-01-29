@@ -9,6 +9,7 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
 ## Sequence diagram
 
 ```mermaid
@@ -24,6 +25,7 @@ sequenceDiagram
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
 ```
+
 ## Gantt diagram
 
 ```mermaid
@@ -57,6 +59,7 @@ Class01 : int chimp
 Class01 : int gorilla
 Class08 <--> C2: Cool label
 ```
+
 ## Git graph
 
 ```mermaid

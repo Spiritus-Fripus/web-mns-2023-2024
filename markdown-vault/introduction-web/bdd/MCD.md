@@ -1,7 +1,7 @@
 # MCD : Model conceptuel des données
 
 ```mermaid
-classDiagram 
+classDiagram
 entité_A : identifiant A
 entité_A : propriété
 entité_A : propriété
@@ -25,7 +25,7 @@ Dans le modèle Merise, les relations décrivent les associations entre entités
 **`Exemple MCD exercice Club:`**
 
 ```mermaid
-classDiagram 
+classDiagram
 Club : n° club
 Club : nom club
 Club : adresse club
@@ -53,9 +53,10 @@ Club <--> Stage : Demander / nb places reservées
 Stage --> Club : Suivre / 0,n
 Club <--> Stage : Suivre / nb participants
 Stage --> Type : Definir / 1,1
-Stage <--> Type : Definir 
+Stage <--> Type : Definir
 Type --> Stage : Definir / 0,n
 ```
+
 **`Exemple d'un MCD`**
 
 ![MCD](../Ressources/1st_MCD.jpg)
