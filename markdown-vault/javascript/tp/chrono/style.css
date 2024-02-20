@@ -1,0 +1,44 @@
+body {
+    margin: 250px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #474978;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    background: #474978;
+    box-shadow: inset -14px -14px 11px #22233a,
+    inset 14px 14px 11px #6c6fb6;
+}
+
+#chrono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 25px;
+    background: #b7b8d5;
+    box-shadow: inset 12px 12px 34px #7c7d91,
+    inset -12px -12px 34px #f2f3ff;
+}
+
+button {
+    margin: 30px 0;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #b7b8d5;
+    box-shadow: inset -14px -14px 11px #585866,
+    inset 14px 14px 11px #ffffff;
+}

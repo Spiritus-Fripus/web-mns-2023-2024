@@ -35,7 +35,7 @@
 		if (parseInt(document.querySelector("#counterDisplay").innerHTML) === 0) {
 			less.disabled = true;
 		} else {
-			less.enabled = true;
+			less.disabled = false;
 			document.querySelector("#counterDisplay").innerHTML = parseInt(document.querySelector("#counterDisplay").innerHTML) - 1;
 		}
 	})
