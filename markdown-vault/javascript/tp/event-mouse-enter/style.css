@@ -1,0 +1,11 @@
+.square {
+  position: absolute;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow:
+    9px 9px 14px #919191,
+    -9px -9px 14px #ffffff;
+}

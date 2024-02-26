@@ -398,3 +398,12 @@ desc.addEventListener("click", () => {
 	des.style.fontSize = 48;
 });
 ```
+
+**create / remove element**
+
+```js
+containerEl.innerHTML = "<div>une div</div>";
+const newEl = document.createElement("div");
+containerEl.append(newEl);
+newEl.remove();
+```

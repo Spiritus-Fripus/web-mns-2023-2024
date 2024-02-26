@@ -4,15 +4,23 @@
 
 // Que remarque t-on q propos des fonctions recursive ?
 
+// Définition du nombre dont on veut calculer la factorielle
 let number = 10;
+
+// Initialisation de la variable qui stockera le résultat de la factorielle
 let facto = 1;
+
+// Initialisation du compteur de la boucle
 let i = 1;
 
-// factorielle :
-
+// Boucle while pour calculer la factorielle
 while (i !== number + 1) {
-	facto = facto * i;
-	i++;
+  // Multiplie le résultat actuel de la factorielle par le compteur de la boucle
+  facto = facto * i;
+
+  // Incrémente le compteur
+  i++;
 }
 
+// Affichage du résultat
 console.log(`le résultat de ${number}! est ${facto}`);

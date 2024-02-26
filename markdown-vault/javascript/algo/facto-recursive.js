@@ -4,13 +4,16 @@
 
 // Que remarque t-on q propos des fonctions recursive ?
 
-
+// Définition de la fonction factoRecursive qui calcule la factorielle d'un nombre
 function factoRecursive(number) {
-	if (number === 0) {
-		return 1;
-	} else {
-		return number * factoRecursive(number - 1);
-	}
+  // Si le nombre est égal à zéro, la factorielle est 1, donc on retourne 1
+  if (number === 0) {
+    return 1;
+  } else {
+    // Sinon, on retourne le nombre multiplié par la factorielle du nombre précédent (nombre - 1)
+    return number * factoRecursive(number - 1);
+  }
 }
 
-console.log(factoRecursive(5))
+// Appel de la fonction factoRecursive avec un argument de 5 et affichage du résultat
+console.log(factoRecursive(5));

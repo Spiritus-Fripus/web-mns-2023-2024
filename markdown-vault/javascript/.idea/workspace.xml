@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4683e17-bf9d-4937-9f85-8fc6ef30373a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tp/event-mouse-enter/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp/event-mouse-enter/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp/event-mouse-enter/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp/toaster/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp/toaster/correction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp/toaster/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/facto-recursive.js" beforeDir="false" afterPath="$PROJECT_DIR$/algo/facto-recursive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/facto-while.js" beforeDir="false" afterPath="$PROJECT_DIR$/algo/facto-while.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/factorielle.js" beforeDir="false" afterPath="$PROJECT_DIR$/algo/factorielle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/fib-no-array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/fibonacci-for.js" beforeDir="false" afterPath="$PROJECT_DIR$/algo/fibonacci-for.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/fibonacci-recursive.js" beforeDir="false" afterPath="$PROJECT_DIR$/algo/fibonacci-recursive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/fibonacci-while.js" beforeDir="false" afterPath="$PROJECT_DIR$/algo/fibonacci-while.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/Base-de-JS.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/Base-de-JS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp/chrono/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/tp/chrono/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp/chrono/start-stop.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp/chrono/start-stop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp/chrono/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tp/chrono/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\Program Files\PHP\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2cl6MMl9b2OWlpaiYfMkcFr7sjT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Nathan/Documents/virtualhost/bdshop_copy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14475.35" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4683e17-bf9d-4937-9f85-8fc6ef30373a" name="Changes" comment="" />
+      <created>1708673769196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708673769196</updated>
+      <workItem from="1708673770629" duration="123000" />
+      <workItem from="1708673904976" duration="721000" />
+      <workItem from="1708674637007" duration="2335000" />
+      <workItem from="1708678916350" duration="118000" />
+      <workItem from="1708708094922" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
