@@ -1,45 +1,44 @@
 <html lang="en">
-
-<head>
+  <head>
+    <meta charset="utf-8" />
     <title>Counter app</title>
-</head>
+  </head>
 
-<body>
-<div id="counterDisplay">1</div>
-<button id="buttonPlus">Increments</button>
-<button id="buttonMoin">Decrements</button>
-</body>
+  <body>
+    <div id="counterDisplay">1</div>
+    <button id="buttonPlus">Increments</button>
+    <button id="buttonMoin">Decrements</button>
+  </body>
 
-
-<script>
-
-	// Selectionner counter
-	document.querySelector("#counterDisplay");
-	const counter = document.querySelector("#counterDisplay");
-	counter.addEventListener("click", () => {
-		counter.style.backgroundColor = "yellow";
-	})
-	// Selectionner bouton
-	// Event click => incremente la valeur + update value
-	document.querySelector("#buttonPlus");
-	const addMore = document.querySelector("#buttonPlus");
-	addMore.addEventListener("click", () => {
-		document.querySelector("#counterDisplay").innerHTML = parseInt(document.querySelector("#counterDisplay").innerHTML) + 1;
-
-	})
-	// decrementer
-	document.querySelector("#buttonMoin");
-	let less = document.querySelector("#buttonMoin");
-	less.addEventListener("click", () => {
-		document.querySelector("#counterDisplay").innerHTML = parseInt(document.querySelector("#counterDisplay").innerHTML);
-		if (parseInt(document.querySelector("#counterDisplay").innerHTML) === 0) {
-			less.disabled = true;
-		} else {
-			less.disabled = false;
-			document.querySelector("#counterDisplay").innerHTML = parseInt(document.querySelector("#counterDisplay").innerHTML) - 1;
-		}
-	})
-
-</script>
-
+  <script>
+    // Selectionner counter
+    document.querySelector("#counterDisplay");
+    const counter = document.querySelector("#counterDisplay");
+    counter.addEventListener("click", () => {
+      counter.style.backgroundColor = "yellow";
+    });
+    // Selectionner bouton
+    // Event click => incremente la valeur + update value
+    document.querySelector("#buttonPlus");
+    const addMore = document.querySelector("#buttonPlus");
+    addMore.addEventListener("click", () => {
+      document.querySelector("#counterDisplay").innerHTML =
+        parseInt(document.querySelector("#counterDisplay").innerHTML) + 1;
+    });
+    // decrementer
+    document.querySelector("#buttonMoin");
+    let less = document.querySelector("#buttonMoin");
+    less.addEventListener("click", () => {
+      document.querySelector("#counterDisplay").innerHTML = parseInt(
+        document.querySelector("#counterDisplay").innerHTML
+      );
+      if (parseInt(document.querySelector("#counterDisplay").innerHTML) === 0) {
+        less.disabled = true;
+      } else {
+        less.disabled = false;
+        document.querySelector("#counterDisplay").innerHTML =
+          parseInt(document.querySelector("#counterDisplay").innerHTML) - 1;
+      }
+    });
+  </script>
 </html>
