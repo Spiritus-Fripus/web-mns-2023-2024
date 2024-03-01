@@ -13,4 +13,10 @@ function bigInt(array) {
     console.log(bigNumber)
 }
 
+function mathUse(array) {
+    let biggestNumber = Math.max(...array)
+    console.log(biggestNumber)
+}
+
+mathUse(arrayInt)
 bigInt(arrayInt)

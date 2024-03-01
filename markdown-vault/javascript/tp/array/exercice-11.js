@@ -9,16 +9,23 @@
 
 const firstNames = ["Noé", "Marc", "Dave", "Eva", "Jean", "Alex", "Ada", "Lia", "Maé", "Mya", "Noa"];
 
-
-function addType(objectStr) {
-    objectStr.sort()
-
-    function random(min, max) {
-        return Math.random() * (min, max);
-    }
-
-    const newObjetType = objectStr.map((name) => ({name, type: "humain", notes: random(0, 20).toFixed(1)}));
-    console.log(newObjetType)
+function randomIntFromInterval(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-addType(firstNames);
+const students = firstNames.map((firstname) => {
+    return {firstname, type: "humain", mark: randomIntFromInterval(0, 20)}
+}).sort((a, b) => a.mark - b.mark);
+
+let sum = 0
+students.forEach((student) => sum += student.mark)
+const average = (sum / students.length).toFixed(1)
+
+/*
+const sum = students.reduce((acc, student) => {
+    return acc + student.mark
+}, 0)
+*/
+
+console.log(students, average)
+

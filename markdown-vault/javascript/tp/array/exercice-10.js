@@ -1,16 +1,18 @@
 // Exercice 10:
 // Écrivez une fonction qui prend un tableau de nombres et renvoie un tableau contenant seulement les nombres premiers.
 
-const numbers = [1, 15, 252, 2, 5, 66, 625]
+const numbers = Array.from(Array(100).keys())
 
 function isPrime(number) {
     let primeNumbers = [];
-    for (let i = 0; i < number.length; i++) {
-        if (number[i] < 2 || number[i] % i === 0) {
-        } else {
-            primeNumbers.push(number[i]);
+    number.forEach((prime) => {
+        if (prime === 0) return;
+        for (let i = 2; i < prime; i++) {
+            if (prime % i === 0) return;
         }
-    }
+        primeNumbers.push(prime);
+
+    });
     console.log(primeNumbers)
 }
 

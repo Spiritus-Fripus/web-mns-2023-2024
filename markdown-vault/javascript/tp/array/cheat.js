@@ -15,7 +15,6 @@ function addType(objectStr, cheater) {
         cheat.notes += 1
     }
 
-
     // tri par notes (a = objet entier (name : , type: , notes:) b = objet entier) donc comparaison entre a & b
     newStudentType.sort((a, b) => {
         return a.notes - b.notes
@@ -32,6 +31,5 @@ function addType(objectStr, cheater) {
     console.log(newStudentType)
     console.log("la moyenne de la classe est de :", moyenne.toFixed(1))
 }
-
 
 addType(student, "Lia")
