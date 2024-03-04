@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4683e17-bf9d-4937-9f85-8fc6ef30373a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pdf/DW_JS_1_compressed.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp/array/array-correction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp/array/array-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp/array/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp/array/cheat.js" beforeDir="false" afterPath="$PROJECT_DIR$/tp/array/cheat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp/array/exercice-10.js" beforeDir="false" afterPath="$PROJECT_DIR$/tp/array/exercice-10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp/array/exercice-11.js" beforeDir="false" afterPath="$PROJECT_DIR$/tp/array/exercice-11.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp/array/exercice-8.js" beforeDir="false" afterPath="$PROJECT_DIR$/tp/array/exercice-8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/Base-de-JS.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/Base-de-JS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,39 +59,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.array-correction.js.executor": "Run",
-    "Node.js.array-object.js.executor": "Run",
-    "Node.js.cheat.js.executor": "Run",
-    "Node.js.exercice-1.js.executor": "Run",
-    "Node.js.exercice-10.js.executor": "Run",
-    "Node.js.exercice-11.js.executor": "Run",
-    "Node.js.exercice-12.js.executor": "Run",
-    "Node.js.exercice-2.js.executor": "Run",
-    "Node.js.exercice-3.js.executor": "Run",
-    "Node.js.exercice-4.js.executor": "Run",
-    "Node.js.exercice-5.js.executor": "Run",
-    "Node.js.exercice-6.js.executor": "Run",
-    "Node.js.exercice-7.js.executor": "Run",
-    "Node.js.exercice-8.js.executor": "Run",
-    "Node.js.exercice-9.js.executor": "Run",
-    "Node.js.exerice-4.js.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Nathan/Documents/virtualhost/bdshop_copy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "terminal",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.array-correction.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.array-object.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.cheat.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exercice-1.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exercice-10.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exercice-11.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exercice-12.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exercice-2.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exercice-3.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exercice-4.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exercice-5.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exercice-6.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exercice-7.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exercice-8.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exercice-9.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exerice-4.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nathan/Documents/virtualhost/bdshop_copy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nathan\Documents\code.workspace\web-mns-2023-2024\markdown-vault\javascript\pdf" />
@@ -130,7 +126,11 @@
       <workItem from="1709105712376" duration="10931000" />
       <workItem from="1709127777363" duration="18455000" />
       <workItem from="1709278458974" duration="138000" />
-      <workItem from="1709287515162" duration="1984000" />
+      <workItem from="1709287515162" duration="2056000" />
+      <workItem from="1709289999683" duration="798000" />
+      <workItem from="1709300495661" duration="548000" />
+      <workItem from="1709303475691" duration="591000" />
+      <workItem from="1709537721036" duration="22000" />
     </task>
     <servers />
   </component>

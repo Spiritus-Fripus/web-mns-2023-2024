@@ -603,3 +603,26 @@ let isArrayOfFruits = Array.isArray(fruits);
 // isArrayOfFruits est true
 ```
 
+## les objets
+
+```js
+const opel = {name: "Opel", from: "GER"}
+const ford = {name: "Ford", from: "USA"}
+const marc = {firstname: "Marc", lastname: "Pablito"}
+
+const corsa = {
+    brand: opel,
+    color: "red",
+    driver: marc
+}
+
+const f150 = {...corsa};
+
+corsa.color = "green";
+
+f150.brand = ford;
+
+const mercedes = {...ford, name: "Mercedes"};
+
+```
+
